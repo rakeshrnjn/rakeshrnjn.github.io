@@ -1,2 +1,50 @@
 @import 'variables';
 @import '../node_modules/bootstrap/scss/bootstrap';
+
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+#wrapper{
+   //margin: 0px 50px;
+    border: 1px solid;
+    min-width: 100%;
+    min-height: 500px;
+}
+
+.main-section{
+    border-left: 1px;
+}
+
+nav{
+    border: 1px solid;
+    ul{
+        padding-left: 0px;
+
+        li{
+            width: inherit;
+            border-bottom: 1px dotted #ccc;
+            
+                padding: 15px 20px 15px 24px;
+                display: inline-block;
+                font-size: 14px;
+                font-weight: bold;
+                color: #333;
+                text-decoration: none;
+            
+
+            &:hover{
+                color: #333;
+                text-decoration: underline;
+            }
+        }
+
+        .active {
+            padding-left: 14px;
+            border-left: 10px solid green;
+        }
+
+
+    }
+}
