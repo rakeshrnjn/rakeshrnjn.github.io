@@ -1,0 +1,8 @@
+<div class="card image-card2x1">
+	<div class="card-header">{{renderJson?.title}}</div>
+	<div class="card-body">
+		<ng-container *ngFor="let item of renderJson.images">
+			<img src="{{item.path}}" alt="" srcset="">
+		</ng-container>
+	</div>
+</div>
