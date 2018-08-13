@@ -1,0 +1,26 @@
+.col-md-10{
+    padding: 0;
+}
+
+.introduction{
+    .inner{
+        position: absolute;
+        margin: 40% 0 0 0;
+        color: #aeaeae;
+        text-transform: uppercase;
+    }
+    h2{
+        line-height: 50px;
+        padding-bottom: 0;
+        font-size: 45px;
+        margin-bottom: 35px;
+    }
+
+    span.title{
+        border-bottom: 1px solid #7a7a7a;
+        border-top: 1px solid #7a7a7a;
+        padding: 15px 0;
+        letter-spacing: 1px;
+        font-size: 13px;
+    }
+}
